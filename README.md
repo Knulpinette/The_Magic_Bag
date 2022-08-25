@@ -16,11 +16,8 @@ A simple tool to bookmark links and navigate them.
 ### Vue
 
 * [Intro to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
-
 * [Classes in Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
-
 * [Inheritance in Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
-
 * [Vue challenges](https://vuejs-challenges.netlify.app/challenges.html#category=Built-ins)
 
 ### Firebase
@@ -32,7 +29,6 @@ A simple tool to bookmark links and navigate them.
 #### Ideas abandonned
 
 * [Using Google Sheets API](https://albertauyeung.github.io/2020/04/26/vuejs-google-sheets.html/) as a lightweight database for the app
-
 * [TUtorial Google Sheets API with Python](https://towardsdatascience.com/turn-google-sheets-into-your-own-database-with-python-4aa0b4360ce7#461d)
-
-* Formula to scrap metadata from websites in Google Sheet : `=IMPORTXML( <LINK> ; <"//meta[@property='og:description']/@content"> )` or `=IMPORTXML( <LINK> ; <"//title"> )`
+* Formula to scrap metadata from websites in Google Sheet : 
+	`=IMPORTXML( <LINK> ; <"//meta[@property='og:description']/@content"> )` or `=IMPORTXML( <LINK> ; <"//title"> )`
