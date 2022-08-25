@@ -1,4 +1,4 @@
-`Ongoing Project`
+<span style="color:blue">`Ongoing Project`</span>
 
 # The Magic Bag
 
