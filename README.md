@@ -1,10 +1,12 @@
-<span style="color:blue">`Ongoing Project`</span>
+`Ongoing Project`
 
 # The Magic Bag
 
 A simple tool to bookmark links and navigate them.
 
 ## Ressources
+
+* [README.MD Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ### HTML
 
@@ -28,7 +30,7 @@ A simple tool to bookmark links and navigate them.
 * [First Steps with Firebase](https://cloud.google.com/firestore/docs/client/get-firebase)
 
 
-#### Ideas abandonned
+##### Ideas abandonned
 
 * [Using Google Sheets API](https://albertauyeung.github.io/2020/04/26/vuejs-google-sheets.html/) as a lightweight database for the app
 * [Tutorial Google Sheets API with Python](https://towardsdatascience.com/turn-google-sheets-into-your-own-database-with-python-4aa0b4360ce7#461d)
