@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
+
+		<!-- Fontawesome Library -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gochi+Hand">
+
+		<!-- Website Title -->
+		<title>The Magic Bag</title>
+		<meta name="description" content="a simple tool to save your links">
+		<meta name="keywords" content="HTML, CSS, JavaScript, Project, Database">
+		<meta name="author" content="Ophélie Surcouf">
+	</head>
+<body>
+	<!-- Header -->
+	<header class="container">
+		<div class="header-centered">
+				<h1>The Magic Bag</h1>
+				<h2>
+					<i>a simple tool to save your links</i>
+				</h2>
+		</div>			 
+	</header>
+	<!-- Link bar -->
+	<div class="container">
+		<div class="flex search-bar">
+			<input type="url" id="add_url_bar" name="add_url_bar" 
+					placeholder="Paste a link to add it to the Magic Bag..."><br><br>
+			<button type="button" name="add" onclick="addLink()">add</button>
+			<!-- Writing the script that will let us add the link to the future database
+					or the standalone excel sheet -->
+			<script>
+				function addLink() {
+					alert("No database yet, sorry 😭");
+				}
+			</script>
+		</div>
+	</div>
+	<!-- Tag cloud -->
+	<div class="container">
+		<div class="flex wrap tags">
+			<button type="button" name="Virtual Reality" onclick="selectTag()">Virtual Reality</button>
+			<button type="button" name="AI" onclick="selectTag()">AI</button>
+			<button type="button" name="Metaverse" onclick="selectTag()">Metaverse</button>
+			<button type="button" name="Augmented Reality" onclick="selectTag()">Augmented Reality</button>
+			<button type="button" name="Urban Technology" onclick="selectTag()">Urban Technology</button>
+			<button type="button" name="Future of Mobility" onclick="selectTag()">Future of Mobility</button>
+			<button type="button" name="K-Pop" onclick="selectTag()">K-pop</button>
+			<button type="button" name="K-Dramas" onclick="selectTag()">K-Dramas</button>
+			<button type="button" name="Pop culture" onclick="selectTag()">Pop culture</button>
+			<button type="button" name="Fan Studies" onclick="selectTag()">Fan Studies</button>
+			<button type="button" name="Fanfiction" onclick="selectTag()">Fanfiction</button>
+		</div>
+		<script>
+			function selectTag() {
+				alert("TO DO : change color");
+			}
+		</script>
+	</div>
+	<!-- Article cards -->
+	<div class="container">
+		<div class="flex wrap article-cards">
+			
+		</div>
+	</div>
+
+	<footer>
+		<div class="container flex space-between">
+			<p>Coded by Ophélie Surcouf</p>
+			<div class="horizontal-list social-media">
+				<ul>
+				  <li><a href="https://www.linkedin.com/in/ophelie-surcouf/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin fa-lg"></i></a></li>
+				  <li><a href="https://twitter.com/opheliesurcouf" target="_blank" aria-label="Twitter"><i class="fab fa-twitter fa-lg"></i></a></li>
+				  <li><a href="https://github.com/Knulpinette/" target="_blank" aria-label="Github"><i class="fab fa-github fa-lg"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

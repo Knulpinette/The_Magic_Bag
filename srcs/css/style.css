@@ -1,0 +1,181 @@
+/*
+	## Colors
+	
+	https://material.io/design/color/dark-theme.html#ui-application
+
+	Background grey : #121212
+	Background grey 2: #212121
+	Purple light: #BB86FC
+	Variant purple: #6200EE
+	Blue dark: #3700B3
+	Blue-Green: #03DAC6
+	Dark Blue-green: #018786
+	Dark Pink: #CF6679
+	Dark red: #B00020
+	Yellow : #E49B0F
+	White: #FFFFFF
+
+	*/
+
+body {
+	margin: 0;
+ 	background-color: #121212;
+}
+
+h1 {
+	font-family: 'Gochi Hand', sans-serif;
+	font-size: 100px;
+	color: #BB84FC;
+	margin-bottom: 40px;
+	text-shadow: 0 0 3px #6200EE, 0 0 5px white;
+}
+
+h1:hover {
+	text-shadow: 0 0 4px #6200EE, 0 0 6px white;
+}
+
+h2 {
+	color: #BB84FC;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 1em;
+}
+
+h2:hover {
+	text-shadow: 0 0 0.8px #6200EE, 0 0 2px #1F1B24;
+}
+
+p {
+	color: #BB84FC;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.flex {
+	display: flex;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.header-centered {
+	
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.search-bar {
+	justify-content: center;
+	content align: center;
+	margin-bottom: 10px;
+}
+
+.search-bar input {
+	flex: 1;
+	background: #212121;
+	color: white;
+	border: 0;
+    border-radius: 1em;
+	margin-left: 5em;
+	padding-left: 1.5em;
+	padding-right : 1.5em;
+}
+
+.search-bar button {
+	background: #BB86FC;
+    border: 0;
+    border-radius: 1em;
+    color: white;
+    padding: 0 4em;
+    margin-left: .3em;
+	margin-right: 4em;
+}
+
+.search-bar button:hover {
+	background-color: #6200EE;
+}
+
+.tags {
+	align-content: flex-start;
+	justify-content: center;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	gap: 10px;
+  	gap: 10px 20px;
+  	row-gap: 10px;
+  	column-gap: 20px;
+}
+
+.tags button {
+	display: block;
+	background: #BB86FC;
+    border: 0;
+    border-radius: 1em;
+    color: white;
+	padding: 0.9em 0.9em;
+}
+
+.tags button:hover {
+	background: #6200EE;
+}
+
+.article-cards {
+	/* figure that out */
+}
+
+footer p {
+	color: #BB86FC;
+	padding: 20px;
+	margin: 0;
+	font-size: 1em;
+	font-weight: lighter;
+}
+
+footer a {
+	color: #03DAC6;
+}
+
+footer a:hover {
+	color: #018786;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.horizontal-list li {
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.social-media {
+	list-style-type: none;
+}
+
+/*
+	<div class="flex-header">
+			<div>
+				<img src="images/header_white_contour.png">
+			</div>
+	...
+	</div>
+
+.container img {
+	width: 70%;
+}
+	
+.flex-header {
+	display: flex;
+	content align: center;
+	align-items: center;
+	text-align: center;
+	color: #BB86FC;
+}*/
