@@ -6,7 +6,7 @@ A simple tool to bookmark links and navigate them.
 
 ## Ressources
 
-* [README.MD Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [README Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ### HTML
 
