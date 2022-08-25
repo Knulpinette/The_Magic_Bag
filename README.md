@@ -31,4 +31,6 @@ A simple tool to bookmark links and navigate them.
 * [Using Google Sheets API](https://albertauyeung.github.io/2020/04/26/vuejs-google-sheets.html/) as a lightweight database for the app
 * [TUtorial Google Sheets API with Python](https://towardsdatascience.com/turn-google-sheets-into-your-own-database-with-python-4aa0b4360ce7#461d)
 * Formula to scrap metadata from websites in Google Sheet : 
-`=IMPORTXML( <LINK> ; <"//meta[@property='og:description']/@content"> )` or `=IMPORTXML( <LINK> ; <"//title"> )`
+
+`=IMPORTXML( <LINK> ; <"//meta[@property='og:description']/@content"> )` 
+or `=IMPORTXML( <LINK> ; <"//title"> )`
