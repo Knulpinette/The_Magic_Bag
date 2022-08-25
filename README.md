@@ -32,5 +32,5 @@ A simple tool to bookmark links and navigate them.
 * [TUtorial Google Sheets API with Python](https://towardsdatascience.com/turn-google-sheets-into-your-own-database-with-python-4aa0b4360ce7#461d)
 
 Formula to scrap metadata from websites in Google Sheet : 
-	`=IMPORTXML( <LINK> ; <"//meta[@property='og:description']/@content"> )` 
-	or `=IMPORTXML( <LINK> ; <"//title"> )`
+<br>	`=IMPORTXML( <LINK> ; <"//meta[@property='og:description']/@content"> )` 
+<br>	or `=IMPORTXML( <LINK> ; <"//title"> )`
