@@ -15,7 +15,7 @@ A simple tool to bookmark links and navigate them.
 
 ### CSS
 
-* [Flexbox are magical](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-terminology)
+* [Flexboxes are magical](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-terminology)
 
 ### Vue
 
