@@ -28,11 +28,12 @@ A simple tool to bookmark links and navigate them.
 
 * [Tutorial Firebase Setup](https://firebase.google.com/docs/database/web/start)
 * [First Steps with Firebase](https://cloud.google.com/firestore/docs/client/get-firebase)
+* Fireship Tutos : [Quickstart](https://fireship.io/lessons/firebase-quickstart/), [The Ultimate Beginner Guide](https://fireship.io/lessons/the-ultimate-beginners-guide-to-firebase/), [Tips and Tricks](https://fireship.io/lessons/firebase-tips-and-tricks/)
 
 
 ##### Ideas abandonned
 
-* [Using Google Sheets API](https://albertauyeung.github.io/2020/04/26/vuejs-google-sheets.html/) as a lightweight database for the app
+* [Using Google Sheets API](https://albertauyeung.github.io/2020/04/26/vuejs-google-sheets.html/) as a lightweight database for the app. Found a better tutorial with [Fireship](https://fireship.io/lessons/google-sheets-database-nextjs/). 
 * [Tutorial Google Sheets API with Python](https://towardsdatascience.com/turn-google-sheets-into-your-own-database-with-python-4aa0b4360ce7#461d)
 * Formula to scrap metadata from websites in Google Sheet : 
 <br>	`=IMPORTXML( <LINK> ; <"//meta[@property='og:description']/@content"> )` 
