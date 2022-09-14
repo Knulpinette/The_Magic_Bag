@@ -30,6 +30,9 @@ A simple tool to bookmark links and navigate them.
 * [First Steps with Firebase](https://cloud.google.com/firestore/docs/client/get-firebase)
 * Fireship Tutos : [Quickstart](https://fireship.io/lessons/firebase-quickstart/), [The Ultimate Beginner Guide](https://fireship.io/lessons/the-ultimate-beginners-guide-to-firebase/), [Tips and Tricks](https://fireship.io/lessons/firebase-tips-and-tricks/)
 
+### Web Scraping
+
+* Tuto [Fireship for Web Scraping](https://fireship.io/lessons/web-scraping-guide/)
 
 ##### Ideas abandonned
 
